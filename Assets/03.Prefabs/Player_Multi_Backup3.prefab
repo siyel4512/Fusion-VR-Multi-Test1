@@ -345,7 +345,24 @@ MonoBehaviour:
   Flags: 2305
   NetworkGuid:
     RawGuidValue: 12772104997faab4b900b9fa42c85001
-  NestedObjects: []
+  NestedObjects:
+  - {fileID: 1628870073412663788}
+  - {fileID: 8520659262563497430}
+  - {fileID: 3272123869339228003}
+  - {fileID: 1192291030477888034}
+  - {fileID: 7411960284109381804}
+  - {fileID: 6994675051088674860}
+  - {fileID: 5307364137604281288}
+  - {fileID: 3670527689883373550}
+  - {fileID: 6968526310822084783}
+  - {fileID: 8424096310808220474}
+  - {fileID: 8535994929588703920}
+  - {fileID: 1820455104054730900}
+  - {fileID: 5118320980041390482}
+  - {fileID: 3494591863913635923}
+  - {fileID: 224049268556018983}
+  - {fileID: 2451235733401271682}
+  - {fileID: 5925515391260487991}
   NetworkedBehaviours:
   - {fileID: 4405104964353916724}
   - {fileID: 4405104964353916721}
@@ -595,6 +612,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915672}
+  - component: {fileID: 1564323605429002646}
+  - component: {fileID: 1192291030477888034}
   m_Layer: 21
   m_Name: LIndexFinger2
   m_TagString: Untagged
@@ -618,6 +637,44 @@ Transform:
   m_Father: {fileID: 4405104964353915648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -67.812004, y: 173.621, z: -175.656}
+--- !u!114 &1564323605429002646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &1192291030477888034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 7411960284109381804}
+  NetworkedBehaviours:
+  - {fileID: 1564323605429002646}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915045
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +773,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915046}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.01
   m_Height: 0.065742195
   m_Direction: 1
@@ -811,6 +868,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915661}
+  - component: {fileID: 5486077780706027017}
+  - component: {fileID: 8520659262563497430}
   m_Layer: 21
   m_Name: LHand 1
   m_TagString: Untagged
@@ -837,6 +896,58 @@ Transform:
   m_Father: {fileID: 4405104964353915969}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5486077780706027017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &8520659262563497430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 3272123869339228003}
+  - {fileID: 1192291030477888034}
+  - {fileID: 7411960284109381804}
+  - {fileID: 6994675051088674860}
+  - {fileID: 5307364137604281288}
+  - {fileID: 3670527689883373550}
+  - {fileID: 6968526310822084783}
+  - {fileID: 8424096310808220474}
+  - {fileID: 8535994929588703920}
+  - {fileID: 1820455104054730900}
+  - {fileID: 5118320980041390482}
+  - {fileID: 3494591863913635923}
+  - {fileID: 224049268556018983}
+  - {fileID: 2451235733401271682}
+  - {fileID: 5925515391260487991}
+  NetworkedBehaviours:
+  - {fileID: 5486077780706027017}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915050
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +957,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915662}
+  - component: {fileID: 2937314718728819210}
+  - component: {fileID: 3494591863913635923}
   m_Layer: 21
   m_Name: LRingFinger3
   m_TagString: Untagged
@@ -869,6 +982,43 @@ Transform:
   m_Father: {fileID: 4405104964353915979}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -65.689, y: 6.374, z: -6.8450003}
+--- !u!114 &2937314718728819210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &3494591863913635923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 2937314718728819210}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915051
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,7 +1059,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915051}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.04570234
   m_Direction: 1
@@ -923,6 +1073,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915648}
+  - component: {fileID: 4710272003204780274}
+  - component: {fileID: 3272123869339228003}
   m_Layer: 21
   m_Name: LIndexFinger1
   m_TagString: Untagged
@@ -946,6 +1098,45 @@ Transform:
   m_Father: {fileID: 4405104964353915661}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -77.005005, y: -11.417001, z: 10.153001}
+--- !u!114 &4710272003204780274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &3272123869339228003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 1192291030477888034}
+  - {fileID: 7411960284109381804}
+  NetworkedBehaviours:
+  - {fileID: 4710272003204780274}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,6 +1765,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915676}
+  - component: {fileID: 6867802914146428871}
+  - component: {fileID: 7411960284109381804}
   m_Layer: 21
   m_Name: LIndexFinger3
   m_TagString: Untagged
@@ -1597,6 +1790,43 @@ Transform:
   m_Father: {fileID: 4405104964353915672}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -59.181004, y: 0.665, z: -0.731}
+--- !u!114 &6867802914146428871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &7411960284109381804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 6867802914146428871}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,7 +1963,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915066}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.04574509
   m_Direction: 1
@@ -1778,7 +2008,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915067}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.008
   m_Height: 0.037650526
   m_Direction: 1
@@ -1823,7 +2053,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915068}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.01
   m_Height: 0.038912132
   m_Direction: 1
@@ -1938,6 +2168,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915667}
+  - component: {fileID: 768733633745629061}
+  - component: {fileID: 8424096310808220474}
   m_Layer: 21
   m_Name: LPinkyFinger2
   m_TagString: Untagged
@@ -1961,6 +2193,44 @@ Transform:
   m_Father: {fileID: 4405104964353915687}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -84.61101, y: -159.45901, z: 158.001}
+--- !u!114 &768733633745629061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &8424096310808220474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 8535994929588703920}
+  NetworkedBehaviours:
+  - {fileID: 768733633745629061}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,7 +2372,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915138}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.047505945
   m_Direction: 1
@@ -2122,7 +2392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4405104964353915879
 Transform:
   m_ObjectHideFlags: 0
@@ -2180,7 +2450,7 @@ Transform:
   m_Children:
   - {fileID: 4405104964353915991}
   m_Father: {fileID: 4405104964353915810}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4405104964353915141
 GameObject:
@@ -2222,7 +2492,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915141}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.008
   m_Height: 0.048479803
   m_Direction: 1
@@ -2595,7 +2865,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915144}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.035399303
   m_Direction: 1
@@ -2698,7 +2968,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915146}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.04750595
   m_Direction: 1
@@ -2728,11 +2998,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4405104964353915147}
   m_LocalRotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4405104964353915810}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &4405104964353916606
 SkinnedMeshRenderer:
@@ -3065,7 +3335,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915150}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.008
   m_Height: 0.03765051
   m_Direction: 1
@@ -3110,7 +3380,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915151}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.030346364
   m_Direction: 1
@@ -3155,7 +3425,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915152}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.060655702
   m_Direction: 1
@@ -3460,7 +3730,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915157}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.030346364
   m_Direction: 1
@@ -3744,7 +4014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4405104964353915902
 Transform:
   m_ObjectHideFlags: 0
@@ -4049,7 +4319,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915165}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.01
   m_Height: 0.047400124
   m_Direction: 1
@@ -4094,7 +4364,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915166}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.061860323
   m_Direction: 1
@@ -5650,7 +5920,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915184}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.06167596
   m_Direction: 1
@@ -5695,7 +5965,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915185}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.008
   m_Height: 0.048479803
   m_Direction: 1
@@ -5866,7 +6136,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915188}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.008
   m_Height: 0.034269787
   m_Direction: 1
@@ -5910,6 +6180,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915882}
+  - component: {fileID: 4190288718685646502}
+  - component: {fileID: 5925515391260487991}
   m_Layer: 21
   m_Name: LThumb3
   m_TagString: Untagged
@@ -5933,6 +6205,43 @@ Transform:
   m_Father: {fileID: 4405104964353915787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -76.852005, y: -62.693005, z: 55.056004}
+--- !u!114 &4190288718685646502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &5925515391260487991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 4190288718685646502}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915191
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,7 +6767,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915197}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.01
   m_Height: 0.038912117
   m_Direction: 1
@@ -6503,7 +6812,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915198}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.061675973
   m_Direction: 1
@@ -7081,6 +7390,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915687}
+  - component: {fileID: 7148010288936346158}
+  - component: {fileID: 6968526310822084783}
   m_Layer: 21
   m_Name: LPinkyFinger1
   m_TagString: Untagged
@@ -7104,6 +7415,45 @@ Transform:
   m_Father: {fileID: 4405104964353915661}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -72.775, y: 66.258, z: -60.106003}
+--- !u!114 &7148010288936346158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &6968526310822084783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 8424096310808220474}
+  - {fileID: 8535994929588703920}
+  NetworkedBehaviours:
+  - {fileID: 7148010288936346158}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915204
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,7 +7877,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915213}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.008
   m_Height: 0.034269802
   m_Direction: 1
@@ -7541,6 +7891,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915682}
+  - component: {fileID: 300774190113256321}
+  - component: {fileID: 3670527689883373550}
   m_Layer: 21
   m_Name: LMiddleFinger3
   m_TagString: Untagged
@@ -7564,6 +7916,43 @@ Transform:
   m_Father: {fileID: 4405104964353915814}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -50.08, y: -0.25100002, z: 0.321}
+--- !u!114 &300774190113256321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &3670527689883373550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 300774190113256321}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915215
 GameObject:
   m_ObjectHideFlags: 0
@@ -8080,7 +8469,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915225}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.045702334
   m_Direction: 1
@@ -9042,6 +9431,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915853}
+  - component: {fileID: 7521767172691985514}
+  - component: {fileID: 1820455104054730900}
   m_Layer: 21
   m_Name: LRingFinger1
   m_TagString: Untagged
@@ -9065,6 +9456,45 @@ Transform:
   m_Father: {fileID: 4405104964353915661}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -78.380005, y: 69.983, z: -58.72}
+--- !u!114 &7521767172691985514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &1820455104054730900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 5118320980041390482}
+  - {fileID: 3494591863913635923}
+  NetworkedBehaviours:
+  - {fileID: 7521767172691985514}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915242
 GameObject:
   m_ObjectHideFlags: 0
@@ -9180,7 +9610,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915243}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.04574509
   m_Direction: 1
@@ -9886,7 +10316,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915254}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.035399333
   m_Direction: 1
@@ -10186,7 +10616,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915259}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.06065569
   m_Direction: 1
@@ -10448,7 +10878,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915263}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.035847962
   m_Direction: 1
@@ -11071,6 +11501,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915979}
+  - component: {fileID: 8665697691976068195}
+  - component: {fileID: 5118320980041390482}
   m_Layer: 21
   m_Name: LRingFinger2
   m_TagString: Untagged
@@ -11094,6 +11526,44 @@ Transform:
   m_Father: {fileID: 4405104964353915853}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -68.061005, y: -171.64401, z: 170.55801}
+--- !u!114 &8665697691976068195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &5118320980041390482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 3494591863913635923}
+  NetworkedBehaviours:
+  - {fileID: 8665697691976068195}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915294
 GameObject:
   m_ObjectHideFlags: 0
@@ -11165,7 +11635,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915295}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.061860323
   m_Direction: 1
@@ -11246,6 +11716,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915814}
+  - component: {fileID: 6588738638723603287}
+  - component: {fileID: 5307364137604281288}
   m_Layer: 21
   m_Name: LMiddleFinger2
   m_TagString: Untagged
@@ -11269,6 +11741,44 @@ Transform:
   m_Father: {fileID: 4405104964353915981}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -61.914, y: -169.77701, z: 162.069}
+--- !u!114 &6588738638723603287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &5307364137604281288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 3670527689883373550}
+  NetworkedBehaviours:
+  - {fileID: 6588738638723603287}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915331
 GameObject:
   m_ObjectHideFlags: 0
@@ -11309,7 +11819,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915331}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.01
   m_Height: 0.06574219
   m_Direction: 1
@@ -11753,6 +12263,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915820}
+  - component: {fileID: 9116857829660768931}
+  - component: {fileID: 224049268556018983}
   m_Layer: 21
   m_Name: LThumb1
   m_TagString: Untagged
@@ -11776,6 +12288,45 @@ Transform:
   m_Father: {fileID: 4405104964353915661}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -11.641001, y: -49.106003, z: 37.378002}
+--- !u!114 &9116857829660768931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &224049268556018983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 2451235733401271682}
+  - {fileID: 5925515391260487991}
+  NetworkedBehaviours:
+  - {fileID: 9116857829660768931}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915337
 GameObject:
   m_ObjectHideFlags: 0
@@ -11872,7 +12423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4405104964353915822
 Transform:
   m_ObjectHideFlags: 0
@@ -12180,8 +12731,8 @@ Transform:
   m_LocalPosition: {x: 0.0286, y: -0.034799993, z: -0.0146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4405104964353915896}
   - {fileID: 4405104964353915887}
+  - {fileID: 4405104964353915896}
   - {fileID: 4405104964353915649}
   - {fileID: 4405104964353915902}
   m_Father: {fileID: 4405104964353915827}
@@ -12683,7 +13234,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915346}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.009
   m_Height: 0.035847947
   m_Direction: 1
@@ -12938,6 +13489,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915787}
+  - component: {fileID: 2835713100510820137}
+  - component: {fileID: 2451235733401271682}
   m_Layer: 21
   m_Name: LThumb2
   m_TagString: Untagged
@@ -12961,6 +13514,44 @@ Transform:
   m_Father: {fileID: 4405104964353915820}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -28.576002, y: -33.236, z: 13.0130005}
+--- !u!114 &2835713100510820137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &2451235733401271682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 5925515391260487991}
+  NetworkedBehaviours:
+  - {fileID: 2835713100510820137}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915352
 GameObject:
   m_ObjectHideFlags: 0
@@ -13219,7 +13810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4405104964353915824
 Transform:
   m_ObjectHideFlags: 0
@@ -13260,6 +13851,8 @@ GameObject:
   - component: {fileID: 4405104964353916821}
   - component: {fileID: 4405104964353916819}
   - component: {fileID: 4405104964353916820}
+  - component: {fileID: 6405451936092929472}
+  - component: {fileID: 1628870073412663788}
   m_Layer: 21
   m_Name: LeftHandModel
   m_TagString: Untagged
@@ -13631,6 +14224,60 @@ MonoBehaviour:
   Hand: {fileID: 0}
   DefaultPoser: {fileID: 4405104964353916819}
   CurrentPoser: {fileID: 0}
+--- !u!114 &6405451936092929472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915357}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb18a92893629384d8ea5708fa23a996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  anim: {fileID: 0}
+--- !u!114 &1628870073412663788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 8520659262563497430}
+  - {fileID: 3272123869339228003}
+  - {fileID: 1192291030477888034}
+  - {fileID: 7411960284109381804}
+  - {fileID: 6994675051088674860}
+  - {fileID: 5307364137604281288}
+  - {fileID: 3670527689883373550}
+  - {fileID: 6968526310822084783}
+  - {fileID: 8424096310808220474}
+  - {fileID: 8535994929588703920}
+  - {fileID: 1820455104054730900}
+  - {fileID: 5118320980041390482}
+  - {fileID: 3494591863913635923}
+  - {fileID: 224049268556018983}
+  - {fileID: 2451235733401271682}
+  - {fileID: 5925515391260487991}
+  NetworkedBehaviours:
+  - {fileID: 6405451936092929472}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915358
 GameObject:
   m_ObjectHideFlags: 0
@@ -14451,6 +15098,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915981}
+  - component: {fileID: 4961820834084135646}
+  - component: {fileID: 6994675051088674860}
   m_Layer: 21
   m_Name: LMiddleFinger1
   m_TagString: Untagged
@@ -14474,6 +15123,45 @@ Transform:
   m_Father: {fileID: 4405104964353915661}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -81.409004, y: 59.004, z: -51.188004}
+--- !u!114 &4961820834084135646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &6994675051088674860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects:
+  - {fileID: 5307364137604281288}
+  - {fileID: 3670527689883373550}
+  NetworkedBehaviours:
+  - {fileID: 4961820834084135646}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915370
 GameObject:
   m_ObjectHideFlags: 0
@@ -14855,6 +15543,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405104964353915989}
+  - component: {fileID: 5413630239767199069}
+  - component: {fileID: 8535994929588703920}
   m_Layer: 21
   m_Name: LPinkyFinger3
   m_TagString: Untagged
@@ -14878,6 +15568,43 @@ Transform:
   m_Father: {fileID: 4405104964353915667}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -70.62, y: 5.806, z: -5.3880005}
+--- !u!114 &5413630239767199069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 539362646, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &8535994929588703920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4405104964353915377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 3073
+  NetworkGuid:
+    RawGuidValue: 00000000000000000000000000000000
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 5413630239767199069}
+  SimulationBehaviours: []
 --- !u!1 &4405104964353915378
 GameObject:
   m_ObjectHideFlags: 0
@@ -15784,7 +16511,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 4405104964353915390}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.01
   m_Height: 0.047400117
   m_Direction: 1

@@ -131,6 +131,13 @@ namespace HurricaneVR.Framework.Core.HandPoser
             UpdatePoser();
         }
 
+        // Todo
+        //public void UpdateState()
+        //{
+        //    UpdateFingerCurls();
+        //    UpdatePoser();
+        //}
+
         protected virtual void UpdateFingerCurls()
         {
             if (FingerCurlSource == null)
