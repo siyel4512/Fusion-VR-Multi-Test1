@@ -19,11 +19,6 @@ public class Player : NetworkBehaviour, IPlayerLeft
         {
             _headVisuals.SetActive( false );
 
-            // Todo
-            //_leftHand.Visuals.gameObject.SetActive( false );
-            //_rightHand.Visuals.gameObject.SetActive( false );
-
-
             foreach( var rend in _renderers )
             {
                 rend.sharedMaterial = _localHandMaterial;

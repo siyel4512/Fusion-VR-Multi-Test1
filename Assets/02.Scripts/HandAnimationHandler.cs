@@ -14,7 +14,7 @@ public class HandAnimationHandler : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
-        if (hvrHandAnimator.FingerCurlSource == null)
+        if (hvrHandAnimator.FingerCurlSource == null && fingerCurlSource == null)
         {
             return;
         }

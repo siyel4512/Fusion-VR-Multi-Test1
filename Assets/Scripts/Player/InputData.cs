@@ -58,9 +58,6 @@ public struct InputData : INetworkInput
     public InputDataController Left;
     public InputDataController Right;
 
-    // Todo : controller input
-    //public HVRHandPoseData leftHandPose;
-
     public void ResetStates()
     {
         Left.States = 0;

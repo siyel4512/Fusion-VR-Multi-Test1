@@ -131,9 +131,7 @@ namespace HurricaneVR.Framework.Core.HandPoser
         //    UpdatePoser();
         //}
 
-        //[Rpc(RpcSources.All, RpcTargets.All)]
         //protected virtual void UpdateFingerCurls()
-        //public virtual void UpdateFingerCurls()
         //{
         //    if (FingerCurlSource == null)
         //        return;
