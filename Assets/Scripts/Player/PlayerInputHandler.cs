@@ -49,7 +49,6 @@ public class PlayerInputHandler : MonoBehaviour
 
     void OnInput( NetworkRunner runner, NetworkInput inputContainer )
     {
-        Debug.Log("[SY] PlayerInputHandler.cs / OnInput() Call!!!");
         if( _onlySendInputWhenFocused && Application.isFocused == false )
         {
             return;
@@ -59,6 +58,8 @@ public class PlayerInputHandler : MonoBehaviour
 
         LeftController?.UpdateInputFixed( ref _data.Left );
         RightController?.UpdateInputFixed( ref _data.Right );
+
+
 
         inputContainer.Set( _data );
 

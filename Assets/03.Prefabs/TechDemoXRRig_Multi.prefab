@@ -23,8 +23,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18916848595198397}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 0, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 770109965121140680}
@@ -44,7 +44,7 @@ Transform:
   - {fileID: 3287183686157416765}
   m_Father: {fileID: 7337992109702850172}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!1 &72484457392722636
 GameObject:
   m_ObjectHideFlags: 0
@@ -8604,6 +8604,7 @@ GameObject:
   - component: {fileID: 662108527580870196}
   - component: {fileID: 7118246186357491014}
   - component: {fileID: 7380420154529089914}
+  - component: {fileID: 7097191237995217953}
   m_Layer: 21
   m_Name: RightHandModel
   m_TagString: Untagged
@@ -8975,6 +8976,27 @@ MonoBehaviour:
   Hand: {fileID: 6959139477980924098}
   DefaultPoser: {fileID: 7118246186357491014}
   CurrentPoser: {fileID: 0}
+--- !u!114 &7097191237995217953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2981177597159027349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb18a92893629384d8ea5708fa23a996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  anim: {fileID: 7380420154529089914}
+  _str: 
+  _anim2:
+    _length: 0
+    _data:
+      Data: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  no: {fileID: 0}
+  isMulti: 1
 --- !u!1 &2999680118951733990
 GameObject:
   m_ObjectHideFlags: 0
@@ -9139,6 +9161,7 @@ GameObject:
   - component: {fileID: 5026702828932566269}
   - component: {fileID: 6578592702241200277}
   - component: {fileID: 5586400116258934520}
+  - component: {fileID: 8013657362212606189}
   m_Layer: 21
   m_Name: LeftHandModel
   m_TagString: Untagged
@@ -9510,6 +9533,27 @@ MonoBehaviour:
   Hand: {fileID: 0}
   DefaultPoser: {fileID: 6578592702241200277}
   CurrentPoser: {fileID: 0}
+--- !u!114 &8013657362212606189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3171534702824618162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb18a92893629384d8ea5708fa23a996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  anim: {fileID: 5586400116258934520}
+  _str: 
+  _anim2:
+    _length: 0
+    _data:
+      Data: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  no: {fileID: 0}
+  isMulti: 1
 --- !u!1 &3180288625733778768
 GameObject:
   m_ObjectHideFlags: 0
@@ -14216,8 +14260,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4825515299697551395}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 0, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9094474817249999921}
@@ -14237,7 +14281,7 @@ Transform:
   - {fileID: 8980091618985769006}
   m_Father: {fileID: 8043190186067615317}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!1 &4876982063559928345
 GameObject:
   m_ObjectHideFlags: 0
@@ -14802,7 +14846,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5355380491109575483}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17838,7 +17882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6202976690434894740
 Transform:
   m_ObjectHideFlags: 0
@@ -19637,7 +19681,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7173783701893503772}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

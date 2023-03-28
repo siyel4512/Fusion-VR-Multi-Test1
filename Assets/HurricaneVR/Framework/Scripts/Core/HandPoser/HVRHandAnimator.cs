@@ -125,27 +125,33 @@ namespace HurricaneVR.Framework.Core.HandPoser
             }
         }
 
-        protected virtual void LateUpdate()
-        {
-            UpdateFingerCurls();
-            UpdatePoser();
-        }
-
-        // Todo
-        //public void UpdateState()
+        //protected virtual void LateUpdate()
         //{
         //    UpdateFingerCurls();
         //    UpdatePoser();
         //}
 
-        protected virtual void UpdateFingerCurls()
+        //[Rpc(RpcSources.All, RpcTargets.All)]
+        //protected virtual void UpdateFingerCurls()
+        //public virtual void UpdateFingerCurls()
+        //{
+        //    if (FingerCurlSource == null)
+        //        return;
+
+        //    for (int i = 0; i < 5; i++)
+        //    {
+        //        _fingerCurls[i] = FingerCurlSource[i];
+        //    }
+        //}
+
+        public virtual void UpdateFingerCurls(float[] _fingerCurlSource)
         {
-            if (FingerCurlSource == null)
+            if (_fingerCurlSource == null)
                 return;
 
             for (int i = 0; i < 5; i++)
             {
-                _fingerCurls[i] = FingerCurlSource[i];
+                _fingerCurls[i] = _fingerCurlSource[i];
             }
         }
 
@@ -167,7 +173,7 @@ namespace HurricaneVR.Framework.Core.HandPoser
             enabled = false;
         }
 
-        private void UpdatePoser()
+        public void UpdatePoser()
         {
             if (DynamicPose)
             {

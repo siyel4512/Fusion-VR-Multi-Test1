@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
+using HurricaneVR.Framework.Core.HandPoser.Data;
+using HurricaneVR.Framework.Shared;
 
 [System.Flags]
 public enum InputAction
@@ -55,6 +57,9 @@ public struct InputData : INetworkInput
 
     public InputDataController Left;
     public InputDataController Right;
+
+    // Todo : controller input
+    //public HVRHandPoseData leftHandPose;
 
     public void ResetStates()
     {

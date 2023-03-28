@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
+using UnityEngine.SceneManagement; // 삭제 예정
 
 
 public class ConnectionHelper : MonoBehaviour
@@ -16,7 +17,6 @@ public class ConnectionHelper : MonoBehaviour
     }
     private void Start()
     {
-        print("[SY] ConnectHelper.cs Start!!!");
         DoStart();
     }
 
@@ -25,13 +25,31 @@ public class ConnectionHelper : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.O))
         {
+            Debug.Log("O key pressed!!!");
             ChangeConnection(GameMode.Host);
         }
         else if (Input.GetKeyDown(KeyCode.P))
         {
+            Debug.Log("P key pressed!!!");
             ChangeConnection(GameMode.Client);
         }
     }
+
+    // Todo 삭제 예정
+    //public void OnGUI()
+    //{
+    //    if (SceneManager.GetActiveScene().buildIndex == 0)
+    //    {
+    //        if (GUI.Button(new Rect(0, 0, 200, 40), "Host"))
+    //        {
+    //            ChangeConnection(GameMode.Host);
+    //        }
+    //        if (GUI.Button(new Rect(0, 40, 200, 40), "Join"))
+    //        {
+    //            ChangeConnection(GameMode.Client);
+    //        }
+    //    }
+    //}
 
     public void StartHost()
     {
@@ -70,8 +88,7 @@ public class ConnectionHelper : MonoBehaviour
 
     void DoStart()
     {
-        //Debug.Log( "Start game " + s_GameMode.ToString() );
-        Debug.Log( "[SY] Start game " + s_GameMode.ToString() );
+        Debug.Log( "Start game " + s_GameMode.ToString() );
 
         switch( s_GameMode )
         {
