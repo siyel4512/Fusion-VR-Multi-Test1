@@ -77,7 +77,8 @@ namespace HurricaneVR.Framework.Core.HandPoser
         private bool _poseHand = true;
         private float[] _fingerCurls;
 
-        protected virtual void Start()
+        //protected virtual void Start()
+        protected virtual void Awake()
         {
             _fingerCurls = new float[5];
 
